@@ -1,0 +1,22 @@
+package Searching;
+import java.util.Arrays;
+public class BinarySearching {
+
+	public static void main(String[] args) {
+		
+		int[] arr = new int[] {1,43,27,127,2,843,38,2,8,28,15,17};
+		
+		int[] arr2 = Swap(arr);
+ 
+	}
+	
+	public static int[] Swap(int arr) {
+
+		int temp;
+		
+		System.out.println(Arrays.toString(arr));
+		
+		return -1;
+	}
+
+}
