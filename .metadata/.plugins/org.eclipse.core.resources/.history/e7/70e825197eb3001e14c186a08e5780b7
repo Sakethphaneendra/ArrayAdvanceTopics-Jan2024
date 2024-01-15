@@ -1,0 +1,10 @@
+package Searching;
+import java.util.Arrays;
+public class BinarySearching {
+
+	public static void main(String[] args) {
+		
+		int[] arr = new int[] {-1,-25,1,2,23,24,34,64,758,986,1004};
+	
+	}
+}
