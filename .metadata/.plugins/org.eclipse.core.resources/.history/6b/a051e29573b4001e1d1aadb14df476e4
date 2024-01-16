@@ -1,0 +1,43 @@
+package Searching;
+import java.util.*;
+public class orderAgnosticBinarySearch {
+
+	public static void main(String[] args) {
+		
+		Scanner in = new Scanner(System.in);
+		System.out.print("Enter the Size of Array : ");
+		int Size = in.nextInt();
+		int[] arr = new int[Size];
+		System.out.print("Enter Sorted Elements : ");
+		for(int i=0;i<Size;i++) {
+			arr[i] = in.nextInt();
+		}
+		System.out.print("Enter the Target to Search : ");
+		int Target = in.nextInt();
+		
+//		System.out.println(Arrays.toString(arr));
+		
+		if(arr[0] < arr[Size-1]) {
+			AscendingOrder(arr, Target);
+		}
+		else {
+			DesendingOrder(arr ,Target);
+		}
+		
+	}
+	
+	public static void AscendingOrder(int[] arr , int target){
+		int start=0,end=arr.length-1,mid;
+		
+		while(start<=end) {
+			mid= (start+end)/2;
+			if(arr[mid] < target) {
+				
+			}
+		}
+	}
+	public static void DesendingOrder(int[] arr, int target){
+		
+	}
+
+}
