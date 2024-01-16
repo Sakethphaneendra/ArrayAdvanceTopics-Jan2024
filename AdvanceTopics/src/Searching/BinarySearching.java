@@ -4,15 +4,15 @@ public class BinarySearching {
 
 	public static void main(String[] args) {
 		
-		int[] arr = new int[] {-1,-25,1,2,23,24,34,64,758,986,1004};
+		int[] arr = new int[]{34,75,2,18,21,9,21,35,8,012,2586,2356,23,2435,22};
 		
-		int result = BinarySearch(arr,22);
+		int result = BinarySearch(arr,21);
 		
 		System.out.println(result );
 		
 	
 	}
-	static int BinarySearch(int[] arr,int target) {
+static int BinarySearch(int[] arr,int target) {
 		
 		int start = 0,end = arr.length-1;
 		
