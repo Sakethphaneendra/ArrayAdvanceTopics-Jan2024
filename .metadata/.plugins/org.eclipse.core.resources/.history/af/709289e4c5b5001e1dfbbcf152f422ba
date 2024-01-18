@@ -1,0 +1,51 @@
+package AdvancedArrayTopics;
+import java.util.Arrays;
+
+public class SecondBiggestElement {
+
+	public static void main(String[] args) {
+		
+		int[] arr = new int[] {3,34,45,16,19,238,1824,54,912,124,244,66,58,448,423,7,23,1824,23,97,97};
+		
+		int[] Sortedarr = Sort(arr);
+		System.out.println(Arrays.toString(arr));
+		int SecondLargest = SecondLargest(Sortedarr);
+		System.out.println(arr[SecondLargest]);
+		
+
+	}
+	public static int SecondLargest(int[] arr) {
+		
+		int largest = arr.length-1;
+		for(int i=largest; i<0;i++)
+		{
+			if(largest > arr[i]) {
+				return arr[largest];
+				
+			}
+		}
+		
+		
+		return -1;
+		
+	}
+	public static int[] Sort(int[] arr) {
+		
+		int temp;
+		
+		for(int i=0;i<arr.length;i++) {
+			for(int j=i;j<arr.length;j++) {
+				
+			
+				if(arr[i]>arr[j]) {
+//					Activate the Swap
+					temp = arr[i];
+					arr[i]=arr[j];
+					arr[j]=temp;
+				}
+			}
+		}
+		
+		return arr;
+	}
+}

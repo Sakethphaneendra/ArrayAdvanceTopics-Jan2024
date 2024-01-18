@@ -1,0 +1,12 @@
+package AdvancedArrayTopics;
+
+public class LargestInArray {
+
+	public static void main(String[] args) {
+		
+		
+		int[] array = new int[]{1,24,42,48,51,7,352,5,46,74,8};
+
+	}
+
+}
