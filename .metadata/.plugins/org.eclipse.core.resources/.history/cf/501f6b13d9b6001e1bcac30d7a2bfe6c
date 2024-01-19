@@ -1,0 +1,14 @@
+package AdvancedArrayTopics;
+
+public class sortedOrNot {
+
+	public static void main(String[] args) {
+		
+		int[] arr = new int[]{1,6,8,4,9,23};
+		
+		int start = arr[0] , end = arr[arr.length-1];
+		System.out.println(start + "  " + end);
+
+	}
+
+}
